@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A56F0DC1EEDE349007BDE38 /* Rectangle2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A56F0DA1EEDE349007BDE38 /* Rectangle2D.cpp */; };
+		8A56F0DF1EEDF33B007BDE38 /* Course.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A56F0DD1EEDF33B007BDE38 /* Course.cpp */; };
 		8AEC2BB11EEB657E00E780A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC2BB01EEB657E00E780A9 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		8A56F0DA1EEDE349007BDE38 /* Rectangle2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle2D.cpp; sourceTree = "<group>"; };
 		8A56F0DB1EEDE349007BDE38 /* Rectangle2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Rectangle2D.hpp; sourceTree = "<group>"; };
+		8A56F0DD1EEDF33B007BDE38 /* Course.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Course.cpp; sourceTree = "<group>"; };
+		8A56F0DE1EEDF33B007BDE38 /* Course.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Course.hpp; sourceTree = "<group>"; };
 		8AEC2BAD1EEB657E00E780A9 /* EX04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EX04; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEC2BB01EEB657E00E780A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +66,8 @@
 				8AEC2BB01EEB657E00E780A9 /* main.cpp */,
 				8A56F0DA1EEDE349007BDE38 /* Rectangle2D.cpp */,
 				8A56F0DB1EEDE349007BDE38 /* Rectangle2D.hpp */,
+				8A56F0DD1EEDF33B007BDE38 /* Course.cpp */,
+				8A56F0DE1EEDF33B007BDE38 /* Course.hpp */,
 			);
 			path = EX04;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			files = (
 				8AEC2BB11EEB657E00E780A9 /* main.cpp in Sources */,
 				8A56F0DC1EEDE349007BDE38 /* Rectangle2D.cpp in Sources */,
+				8A56F0DF1EEDF33B007BDE38 /* Course.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
