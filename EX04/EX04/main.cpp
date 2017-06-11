@@ -46,6 +46,20 @@ int* doubleCapacity(const int* list, int size){
     }
     return newList;
 }
+
+//EX04_03
+int smallestElement(int* list, int size){
+    int smallest = list[0];
+    for (int i=0; i<size; i++){
+        if (list[i]<smallest){
+            smallest = list[i];
+        }
+    }
+    return smallest;
+}
 int main(){
     AnalyzeInput();
+    int numbers[] = {1, 2, 4, 5, 10, 100, 2, -22};
+    int s = smallestElement(numbers, 8);
+    cout<<"The smallest element in the specified array is "<<s<<endl;
 }
