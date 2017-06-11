@@ -57,6 +57,7 @@ int smallestElement(int* list, int size){
     }
     return smallest;
 }
+
 int main(){
     AnalyzeInput();
     int numbers[] = {1, 2, 4, 5, 10, 100, 2, -22};
