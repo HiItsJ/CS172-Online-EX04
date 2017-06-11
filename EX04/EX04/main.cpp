@@ -10,7 +10,8 @@
 
 using namespace std;
 
-void EX04_01(){
+//EX04_01
+void AnalyzeInput(){
     cout<<"Input a size for your array: ";
     int input;
     cin>>input;
@@ -36,6 +37,15 @@ void EX04_01(){
     }
     cout<<"There are "<<count<<" numbers above the average of "<<avg<<endl;
 }
+
+//EX04_02
+int* doubleCapacity(const int* list, int size){
+    int newList[size*2];
+    for (int i=0; i<size; i++){
+        newList[i] = list[i];
+    }
+    return newList;
+}
 int main(){
-    EX04_01();
+    AnalyzeInput();
 }
